@@ -60,7 +60,4 @@ public class WorkerResource {
 		Worker worker = repository.findById(id).get();
 		return ResponseEntity.ok(worker);
 	}
-	
-	
-
 }
